@@ -14,10 +14,11 @@ Completion files to [clink](https://github.com/mridgers/clink) util
 
     ```sh
     choco install clink -y
-    mkdir c:\Projects
-    cd /d c:\Projects
+
+    cd /d %TEMP%
     git clone https://github.com/doggy8088/clink-completions.git
     cd clink-completions
+
     install.bat
     ```
 
